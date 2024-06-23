@@ -29,12 +29,12 @@ def home(request):
 
 
 def sobre(request):
-    return HttpResponse('Olá, mundo!')
+    return HttpResponse('sobre')
     # return HTTP Response
 
 
 def contato(request):
-    return HttpResponse('Que noite agradável!')
+    return HttpResponse('contato')
     # return HTTP Response
 
 
