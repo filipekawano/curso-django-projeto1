@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipes</title>
-</head>
+{% include "recipes/partials/head.html" %}
 <body>
-    <h1>Recipes {{ name }}</h1>
+    <header class="main-header-container">
+        <div class="main-header container">
+            <h1>
+                <a class="main-logo" href="/">
+                    <i class="fas fa-utensils main-logo-icon"></i>
+                    <span class="main-logo-text">Recipes</span>
+                </a>
+            </h1>
+        </div>
+    </header>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto enim illum molestias et labore tenetur soluta modi sit? Voluptatum sit dolor doloremque rem. Consequatur ipsum ratione veniam eos ipsa dolorum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur alias maxime consequuntur! Quaerat mollitia voluptatum itaque. Inventore vitae ea fugiat possimus, quasi corrupti provident enim molestias eius, deserunt, explicabo distinctio!</p>
 </body>
 </html>
